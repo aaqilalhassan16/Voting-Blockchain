@@ -85,11 +85,12 @@ Open the Ganache GUI client. This will start your local blockchain instance.
 ### Step 4. Compile & Deploy Election Smart Contract
 `$ truffle migrate --reset`
 You must migrate the election smart contract each time your restart ganache.
+$ truffle test`
 
 ### Step 5. Configure Metamask
 - Unlock Metamask
-- Connect metamask to your local Etherum blockchain provided by Ganache.
-- Import an account provided by ganache.
+- Connect metamask to your local Etherum blockchain provided by Ganache i.e create a new network Localhost8585 in which Network name- Localhost8545 , New RPC URL from Ganache , Chain ID- 1337, Currency ENT.
+- Import an account provided by ganache i.e copy the onw with less number i.e 99.
 
 ### Step 6. Run the Front End Application
 `$ npm run dev`
